@@ -27,7 +27,7 @@ const neighborhoods = [
   },
   {
     id: 4,
-    name: "Bhawarkuan",
+    name: "MIG Colony",
     description: "Student-friendly area near universities and colleges",
     properties: 27,
     image: "/placeholder.svg?height=400&width=600",
@@ -66,7 +66,7 @@ export default function FeaturedNeighborhoods() {
             </div>
             <CardContent className="p-4">
               <p className="text-sm text-muted-foreground mb-3 line-clamp-2">{neighborhood.description}</p>
-              <div className="flex justify-between items-center">
+              {/* <div className="flex justify-between items-center">
                 <div className="flex items-center text-sm">
                   <Building className="h-4 w-4 mr-1 text-primary" />
                   <span>{neighborhood.properties} Properties</span>
@@ -74,7 +74,7 @@ export default function FeaturedNeighborhoods() {
                 <Link href={`/neighborhoods/${neighborhood.id}`} className="text-sm text-primary hover:underline">
                   View Area
                 </Link>
-              </div>
+              </div> */}
             </CardContent>
           </Card>
         ))}

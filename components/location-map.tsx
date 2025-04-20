@@ -46,7 +46,7 @@ export default function LocationMap() {
                 <MapPin className="h-5 w-5 mr-3 text-primary mt-0.5" />
                 <div>
                   <h4 className="font-medium">Address</h4>
-                  <p className="text-muted-foreground">O/1, Sector D, LIG Colony, Indore, Madhya Pradesh 452001</p>
+                  <p className="text-muted-foreground">O/1, LIG Colony, Behind LIG Gurudwara Indore, Madhya Pradesh 452010</p>
                 </div>
               </div>
 
@@ -54,7 +54,7 @@ export default function LocationMap() {
                 <Phone className="h-5 w-5 mr-3 text-primary mt-0.5" />
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-muted-foreground">+91 98765 43210</p>
+                  <p className="text-muted-foreground">+91 82360 32162</p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ export default function LocationMap() {
                 <Mail className="h-5 w-5 mr-3 text-primary mt-0.5" />
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-muted-foreground">info@selectedhomesindore.com</p>
+                  <p className="text-muted-foreground">selectedhomes55@gmail.com</p>
                 </div>
               </div>
 
@@ -71,9 +71,9 @@ export default function LocationMap() {
                 <div>
                   <h4 className="font-medium">Business Hours</h4>
                   <p className="text-muted-foreground">
-                    Monday - Saturday: 9:00 AM - 7:00 PM
+                    Monday - Saturday: 10:00 AM - 8:00 PM
                     <br />
-                    Sunday: 10:00 AM - 2:00 PM
+                    Sunday: 10:00 AM - 8:00 PM
                   </p>
                 </div>
               </div>
@@ -82,9 +82,9 @@ export default function LocationMap() {
             <div className="mt-6 pt-6 border-t">
               <h4 className="font-medium mb-2">Nearby Landmarks</h4>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• 2 km from Indore Railway Station</li>
-                <li>• 1.5 km from Rajwada Palace</li>
-                <li>• 3 km from Holkar Stadium</li>
+              <li>• Behind LIG Gurudwara</li>
+                {/* <li>• 1.5 km from Rajwada Palace</li>
+                <li>• 3 km from Holkar Stadium</li> */}
               </ul>
             </div>
           </div>

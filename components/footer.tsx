@@ -15,30 +15,30 @@ export default function Footer() {
               We provide rental & sell-purchase services for all types of properties nearby Indore.
             </p>
             <div className="flex items-center gap-4">
-              <Link
+              {/* <Link
                 href="#"
                 className="h-8 w-8 flex items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Facebook className="h-4 w-4" />
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 href="#"
                 className="h-8 w-8 flex items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Twitter className="h-4 w-4" />
-              </Link>
+              </Link> */}
               <Link
-                href="#"
+                href="https://www.instagram.com/_selected_homes"
                 className="h-8 w-8 flex items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Instagram className="h-4 w-4" />
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 className="h-8 w-8 flex items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Linkedin className="h-4 w-4" />
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -129,15 +129,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-primary mt-0.5" />
-                <span className="text-muted-foreground">O/1, Sector D, LIG Colony, Indore, Madhya Pradesh 452001</span>
+                <span className="text-muted-foreground">O/1, LIG Colony, Behind LIG Gurudwara, Indore,Madhya Pradesh 452010</span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 text-primary mt-0.5" />
-                <span className="text-muted-foreground">+91 98765 43210</span>
+                <span className="text-muted-foreground">+91 82360 32162</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-primary mt-0.5" />
-                <span className="text-muted-foreground">info@selectedhomesindore.com</span>
+                <span className="text-muted-foreground">selectedhomes55@gmail.com</span>
               </li>
             </ul>
           </div>

@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <Hero />
-      <PropertySearch />
+      {/* <PropertySearch /> */}
       <PropertyCategories />
       <FeaturedProperties />
       <Services />

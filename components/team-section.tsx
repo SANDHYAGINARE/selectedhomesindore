@@ -6,41 +6,41 @@ import Link from "next/link"
 const team = [
   {
     id: 1,
-    name: "Rajesh Sharma",
+    name: "Ankit Gour",
     role: "Founder & CEO",
-    bio: "With over 15 years of experience in Indore's real estate market, Rajesh leads our team with expertise and vision.",
+    bio: "With over 5 years of experience in Indore's real estate market, Rajesh leads our team with expertise and vision.",
     image: "/placeholder.svg?height=400&width=400",
     contact: {
-      phone: "+91 98765 43210",
-      email: "rajesh@selectedhomesindore.com",
+      phone: "+91 78699 96552",
+      // email: "rajesh@selectedhomesindore.com",
     },
     social: {
       linkedin: "#",
-      facebook: "#",
+      // facebook: "#",
       instagram: "#",
     },
   },
   {
     id: 2,
-    name: "Priya Patel",
-    role: "Residential Property Expert",
-    bio: "Specializing in family homes and student accommodations, Priya has helped hundreds of clients find their perfect home.",
+    name: "Pooja Patil",
+    role: "Co-founder & Head of Operations",
+    bio: "Specializing in family homes and student accommodations, Pooja has helped hundreds of clients find their perfect home.",
     image: "/placeholder.svg?height=400&width=400",
     contact: {
-      phone: "+91 98765 43211",
+      phone: "+91 82360 32162",
       email: "priya@selectedhomesindore.com",
     },
     social: {
       linkedin: "#",
-      facebook: "#",
+      // facebook: "#",
       instagram: "#",
     },
   },
   {
     id: 3,
-    name: "Vikram Singh",
-    role: "Commercial Property Specialist",
-    bio: "Vikram's expertise in commercial real estate has made him the go-to advisor for business owners in Indore.",
+    name: "Mayur Patil",
+    role: "Property Specialist",
+    bio: "Mayur's expertise in real estate has made him the go-to advisor for properties in Indore.",
     image: "/placeholder.svg?height=400&width=400",
     contact: {
       phone: "+91 98765 43212",
@@ -48,23 +48,23 @@ const team = [
     },
     social: {
       linkedin: "#",
-      facebook: "#",
+      // facebook: "#",
       instagram: "#",
     },
   },
   {
     id: 4,
-    name: "Anita Desai",
+    name: "Sandhya Ginare",
     role: "Legal Advisor",
     bio: "With a background in real estate law, Anita ensures all our transactions are legally sound and hassle-free.",
     image: "/placeholder.svg?height=400&width=400",
     contact: {
-      phone: "+91 98765 43213",
-      email: "anita@selectedhomesindore.com",
+      phone: "+91 99813 24820 ",
+      email: "sandhyaginare26@gmail.com",
     },
     social: {
       linkedin: "#",
-      facebook: "#",
+      // facebook: "#",
       instagram: "#",
     },
   },
@@ -99,9 +99,9 @@ export default function TeamSection() {
                     <Link href={member.social.linkedin} className="text-white hover:text-primary">
                       <Linkedin className="h-5 w-5" />
                     </Link>
-                    <Link href={member.social.facebook} className="text-white hover:text-primary">
+                    {/* <Link href={member.social.facebook} className="text-white hover:text-primary">
                       <Facebook className="h-5 w-5" />
-                    </Link>
+                    </Link> */}
                     <Link href={member.social.instagram} className="text-white hover:text-primary">
                       <Instagram className="h-5 w-5" />
                     </Link>

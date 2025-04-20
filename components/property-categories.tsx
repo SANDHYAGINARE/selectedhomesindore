@@ -45,7 +45,8 @@ export default function PropertyCategories() {
   return (
     <section className="py-16 container">
       <div className="flex flex-col items-center justify-center mb-12 text-center">
-        <h2 className="text-3xl font-bold tracking-tight mb-2">Browse by Category</h2>
+        <h2 className="text-3xl font-bold tracking-tight mb-2">Categories available</h2>
+        {/* Browse by  */}
         <p className="text-muted-foreground max-w-2xl">
           We offer specialized properties for different needs - find what suits you best
         </p>
@@ -65,10 +66,10 @@ export default function PropertyCategories() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">{category.title}</h3>
                 <p className="text-muted-foreground mb-4 flex-grow">{category.description}</p>
-                <div className="flex justify-between items-center mt-2">
+                {/* <div className="flex justify-between items-center mt-2">
                   <span className="text-sm font-medium">{category.properties} Properties</span>
                   <ArrowRight className="h-4 w-4 text-foreground/70" />
-                </div>
+                </div> */}
               </CardContent>
             </Card>
           </Link>

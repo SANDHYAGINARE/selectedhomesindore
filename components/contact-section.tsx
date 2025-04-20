@@ -79,7 +79,7 @@ export default function ContactSection() {
                   name="name"
                   value={formState.name}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="Enter your full name"
                   required
                 />
               </div>
@@ -94,7 +94,7 @@ export default function ContactSection() {
                   type="email"
                   value={formState.email}
                   onChange={handleChange}
-                  placeholder="john@example.com"
+                  placeholder="Enter your email address"
                   required
                 />
               </div>
@@ -110,7 +110,7 @@ export default function ContactSection() {
                   name="phone"
                   value={formState.phone}
                   onChange={handleChange}
-                  placeholder="+91 98765 43210"
+                  placeholder="Enter your phone number"
                   required
                 />
               </div>

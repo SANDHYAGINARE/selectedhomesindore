@@ -54,13 +54,13 @@ export default function Header() {
             <Building2 className="h-4 w-4" />
             <span>Properties</span>
           </Link>
-          <Link
+          {/* <Link
             href="/commercial"
             className="text-sm font-medium transition-colors hover:text-primary flex items-center gap-1"
           >
             <Building className="h-4 w-4" />
             <span>Commercial</span>
-          </Link>
+          </Link> */}
           <Link
             href="/about"
             className="text-sm font-medium transition-colors hover:text-primary flex items-center gap-1"
@@ -76,9 +76,15 @@ export default function Header() {
             <span>Contact</span>
           </Link>
           <ModeToggle />
-          <Button size="sm">
+          {/* <Button size="sm">
             <Phone className="mr-2 h-4 w-4" /> Call Now
-          </Button>
+          </Button> */}
+          <a href="tel:1234567890">
+  <Button size="sm">
+    <Phone className="mr-2 h-4 w-4" />
+    Call Now  </Button>
+</a>
+
         </nav>
 
         {/* Mobile Menu Button */}
@@ -141,7 +147,7 @@ export default function Header() {
             </div>
             <div className="pt-2 flex items-center gap-2 text-sm text-muted-foreground">
               <MapPin className="h-4 w-4" />
-              <span>O/1, Sector D, LIG Colony, Indore, MP 452001</span>
+              <span>O/1, LIG Colony, Behind LIG Gurudwara Indore, MP 452010</span>
             </div>
           </div>
         </div>

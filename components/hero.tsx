@@ -1,6 +1,14 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Building, Home, Users, Briefcase } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import {
+  ArrowRight,
+  Building,
+  Home,
+  Users,
+  Briefcase,
+  ShoppingCart,
+  Package,
+} from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -8,7 +16,9 @@ export default function Hero() {
       <div className="absolute inset-0 hero-gradient z-10" />
       <div
         className="relative h-[90vh] bg-cover bg-center"
-        style={{ backgroundImage: "url('/placeholder.svg?height=1080&width=1920')" }}
+        style={{
+          backgroundImage: "url('/images/2sh.jpg?height=1080&width=1920')",
+        }}
       >
         <div className="container relative z-20 flex flex-col items-start justify-center h-full space-y-5 pt-16">
           <div className="space-y-4 max-w-3xl">
@@ -19,7 +29,8 @@ export default function Hero() {
               SELECTED HOMES
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-xl">
-              We provide rental & sell-purchase services for all types of properties nearby Indore
+              We provide rental & sell-purchase services for all types of
+              properties nearby Indore
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="group" asChild>
@@ -38,7 +49,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 w-full max-w-4xl mt-12">
+          <div className="grid grid-cols-1 sm:grid-cols-6 gap-4 w-full max-w-8xl mt-12">
             <div className="glass-effect p-4 rounded-lg border border-white/10 flex items-center">
               <Home className="h-8 w-8 text-primary mr-3" />
               <div>
@@ -67,10 +78,24 @@ export default function Hero() {
                 <p className="text-white/80 text-sm">For business</p>
               </div>
             </div>
+            <div className="glass-effect p-4 rounded-lg border border-white/10 flex items-center">
+              <ShoppingCart className="h-8 w-8 text-primary mr-3" />
+              <div>
+                <h3 className="font-bold text-white">Sell</h3>
+                <p className="text-white/80 text-sm">Property sale</p>
+              </div>
+            </div>
+
+            <div className="glass-effect p-4 rounded-lg border border-white/10 flex items-center">
+              <Package className="h-8 w-8 text-primary mr-3" />
+              <div>
+                <h3 className="font-bold text-white">Purchase</h3>
+                <p className="text-white/80 text-sm">Buy property</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-
